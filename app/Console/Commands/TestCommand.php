@@ -40,7 +40,7 @@ class TestCommand extends Command
     {
         
         DB::table('test')->insert(
-            ['decimal' => 12345.12]
+            ['decimal' => 1.12]
         );
         $test = DB::table('test')->get();
 
