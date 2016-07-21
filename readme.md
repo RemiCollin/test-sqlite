@@ -6,6 +6,7 @@ Run :
 
 ```
     composer update
+    touch database/database.sqlite
     php artisan migrate
     php artisan db:test
 
